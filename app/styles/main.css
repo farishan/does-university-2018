@@ -386,9 +386,12 @@ body {
 }
 
 @media (min-width: 1281px){
+  .home__video-wrapper {
+    width: 100%;
+  }
   .home__video-wrapper video {
     height: auto;
-    width: 100%;
+    width: 120%;
   }
 }
 
