@@ -60,7 +60,7 @@ function toggleMenu(){
 
 function routerpush(route){
 	console.log(route)
-	window.location.replace('/');
+	window.location.replace(route);
 }
 
 window.onload = function(){
